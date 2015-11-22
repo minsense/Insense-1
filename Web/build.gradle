@@ -1,3 +1,7 @@
 apply plugin : 'war'
 
 apply from : "dependencies.gradle"
+
+war {
+    baseName = "insense-web"
+}

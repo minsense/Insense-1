@@ -1,6 +1,16 @@
-apply plugin : 'java'
+subprojects{
 
+    apply plugin : 'java'
 
+    sourceCompatibility = JavaVersion.VERSION_1_8
+
+    version = '0.1.0.BUILD-SNAPSHOT'
+
+    ext{
+        springVersion = "4.2.3.RELEASE"
+    }
+
+}
 
 task wrapper(type: Wrapper) {
     gradleVersion = '2.9'
