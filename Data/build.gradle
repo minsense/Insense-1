@@ -1,5 +1,5 @@
 apply plugin : "java"
 
-war {
+jar {
     baseName = "insense-data"
 }
