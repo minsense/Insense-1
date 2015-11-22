@@ -1,0 +1,5 @@
+apply plugin : "java"
+
+war {
+    baseName = "insense-data"
+}
